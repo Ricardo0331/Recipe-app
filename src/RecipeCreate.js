@@ -35,26 +35,11 @@ function RecipeCreate(props) {
       <table>
         <tbody>
           <tr>
-            <td>Name</td>
-            <td><input name="name" type="text" value={recipe.name} onChange={handleChange} /></td>
-          </tr>
-          <tr>
-            <td>Cuisine</td>
-            <td><input name="cuisine" type="text" value={recipe.cuisine} onChange={handleChange} /></td>
-          </tr>
-          <tr>
-            <td>Photo</td>
-            <td><input name="photo" type="text" value={recipe.photo} onChange={handleChange} /></td>
-          </tr>
-          <tr>
-            <td>Ingredients</td>
-            <td><textarea name="ingredients" type="text" value={recipe.ingredients} onChange={handleChange} /></td>
-          </tr>
-          <tr>
-            <td>Preparation</td>
-            <td><textarea name="preparation" typeof="text" value={recipe.preparation} onChange={handleChange} /></td>
-          </tr>
-          <tr>
+            <td><input placeholder="Name" name="name" type="text" value={recipe.name} onChange={handleChange} /></td>
+            <td><input placeholder="Cuisine" name="cuisine" type="text" value={recipe.cuisine} onChange={handleChange} /></td>
+            <td><input placeholder="Photo" name="photo" type="text" value={recipe.photo} onChange={handleChange} /></td>
+            <td><textarea placeholder="Ingredients" name="ingredients" type="text" value={recipe.ingredients} onChange={handleChange} /></td>
+            <td><textarea placeholder="Preparation" name="preparation" typeof="text" value={recipe.preparation} onChange={handleChange} /></td>
             <td>
               <button type="submit">Create</button>
             </td>

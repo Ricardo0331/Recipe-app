@@ -131,3 +131,23 @@ tbody tr:nth-child(odd) {
   background-color: #fff0c7;
 }
 
+.create-section{
+  display: flex;
+  outline: blue dashed 1px;
+  
+
+}
+
+.create2{
+  display: flex;
+  outline: red dashed 1px;
+
+}
+
+
+td:nth-child(1), 
+td:nth-child(2), 
+td:nth-child(3), 
+td:nth-child(6){
+  width: 10%;
+}
